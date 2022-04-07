@@ -1,17 +1,13 @@
 package com.jp12.audiostuff;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.media.MediaPlayer;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
-import android.widget.SeekBar;
 
-import java.io.IOException;
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -23,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     Button stopButton;
     Button ff;
     int length;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
